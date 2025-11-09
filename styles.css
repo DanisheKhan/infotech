@@ -162,13 +162,14 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     white-space: nowrap;
+    height: 46px;
+    min-width: 150px;
 }
 
 .btn-primary {
     background: #FA1239;
     box-shadow: 0px 0px 12px rgba(250, 18, 57, 0.58);
     color: #FFFFFF;
-    height: 46px;
 }
 
 .btn-primary:hover {
@@ -183,7 +184,6 @@ body {
     box-shadow: 0px 0px 12px rgba(250, 18, 57, 0.58);
     color: #FA1239;
     width: 202px;
-    height: 46px;
 }
 
 .btn-outline:hover {
@@ -779,6 +779,17 @@ body {
         padding: 8px;
     }
     
+    .btn {
+        font-size: 16px;
+        padding: 12px 20px;
+        height: 44px;
+        min-width: 140px;
+    }
+    
+    .btn-outline {
+        width: 180px;
+    }
+    
     .hero-section {
         width: 100%;
         height: auto;
@@ -935,6 +946,24 @@ body {
         font-size: 14px;
     }
     
+    .btn {
+        font-size: 14px;
+        padding: 12px 18px;
+        height: 42px;
+        min-width: 120px;
+        white-space: normal;
+        word-break: break-word;
+    }
+    
+    .btn-outline {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .btn-primary {
+        width: 100%;
+        max-width: 280px;
+    }
     
     .hero-section {
         height: auto;
@@ -974,16 +1003,7 @@ body {
         width: 100%;
         height: auto;
         gap: 16px;
-    }
-
-    .btn-outline {
-        width: auto;
-        min-width: 200px;
-    }
-
-    .btn-primary {
-        width: auto;
-        min-width: 150px;
+        align-items: center;
     }
     
     .decorative-line,
